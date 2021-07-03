@@ -1,0 +1,21 @@
+UI Sketched With:
+https://michaelsboost.com/whiteboard
+
+Language:
+HTML, CSS, Javascript
+
+Requirements:
+100% clientside + responsive
+
+IDE Used (Desktops):
+https://www.replit.com/
+
+IDE Used (Android):
+Acode - https://play.google.com/store/apps/details?id=com.foxdebug.acodefree
+or 
+Termux + Vim
+https://play.google.com/store/apps/details?id=com.termux
+Vim Cheat Sheet - https://vim.rtorr.com/
+
+Webhost: 
+Github Pages

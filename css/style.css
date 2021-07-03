@@ -1,0 +1,71 @@
+/*
+  Version: 0.0.1
+  Dog Toyz, copyright (c) by Michael Schwartz
+  Distributed under the MIT license: https://github.com/michaelsboost/Dog-Toyz/blob/gh-pages/LICENSE
+  This is Dog Toyz (https://michaelsboost.github.io/Dog-Toyz), Play dog toy sounds with this app for fun with your dog 😊.
+*/
+
+html, body {
+  height: 100%;
+}
+
+/* github and donate icons */
+.nav {
+  margin: 0 10px;
+  width: 70px;
+}
+
+/* center x and y */
+.table {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  display: table;
+  width: 100%;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* dog toyz vector styling */
+.table a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.table svg {
+  display: inline-block;
+  width: 80%;
+  height: calc(100vh - 2em);
+}
+@media all and (max-width: 600px) {
+  .table svg {
+    width: 100%;
+  }
+}
+.table svg g > g {
+  cursor: pointer;
+}
+a[disabled=true] {
+  display: none;
+}
+a[disabled=false] {
+  display: inline-block;
+}
+
+/* misc */
+.hide {
+  display: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fl, .fr {
+  position: relative;
+  z-index: 1;
+}
